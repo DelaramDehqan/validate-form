@@ -1,0 +1,64 @@
+*{
+  background: url(./assets/bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+ 
+}
+.font-face-gm {
+    font-family: "AMitra";
+    text-align:end;
+    color: black !important;
+}
+
+.App {
+  width: 50vh;
+  margin: 5rem auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+h3{
+  text-align: center!important;
+}
+input,
+select {
+  padding:4px;
+  height: 25px;
+  outline: none;
+  margin: 0.3em 1em;
+  border-radius: 3px;
+  border: 2px solid rgb(249, 210, 156);
+  background-color: rgb(250, 224, 214);
+  
+}
+select{
+  height: 35px !important;
+}
+form p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  color: red;
+  font-size: 12px;
+  font-family: "AMitra";
+}
+
+input:focus {
+  border: 1px solid rgb(255, 166, 0);
+}
+button{
+  text-align: center !important;
+  width: 120px;
+  height: 40px;
+  background-color: rgb(243, 194, 96);
+  border: 3px solid rgb(245, 218, 162);
+  cursor: pointer;
+  justify-content: center !important;
+  margin-left: 120px;
+  margin-bottom: 1em;
+}
